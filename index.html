@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-ag" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gemini Pro AI Chatbot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'neon-blue': '#3b82f6',
+              'neon-fuchsia': '#d946ef',
+            },
+            boxShadow: {
+              'neon-blue': '0 0 10px #3b82f6, 0 0 20px #3b82f6, 0 0 30px #3b82f6',
+              'neon-fuchsia': '0 0 10px #d946ef, 0 0 20px #d946ef, 0 0 30px #d946ef',
+              'neon-red': '0 0 8px #ef4444, 0 0 16px #ef4444',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-100 dark:bg-black">
+    <div id="root"></div>
+  </body>
+</html>

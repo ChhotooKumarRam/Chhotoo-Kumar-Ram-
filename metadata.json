@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Gemini Pro AI Chatbot",
+  "description": "A professional, multimodal AI chatbot system with text, voice, and visual capabilities, built with React and powered by the Gemini API. Features a modern neon/glassmorphism UI.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
